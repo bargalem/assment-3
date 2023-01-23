@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background image</title>
+    <link rel="stylesheet" href=".\backimg.css" class="css">
+   
+<body>
+    <div class="regmain">
+        <form autocomplete="on" method="post" action=".\reg.html">
+
+          <h1>Registration Form</h1>
+          <label for="detail_lable">Enter your details below</label>
+           <ul>
+              <li><input type="text"id="detail_lable" placeholder="your_email@gmail.com"required></li><br>
+              <li><input type="password"  placeholder="Password"required></li>
+              <h4>!Type a complex password with 8-20 characters</h4>
+              <li><input type="number" min="10" placeholder="+20 Phone number"required></li>
+              </ul>
+             <hr>
+
+           <h3>Enter your profession:</h3>
+              <ul>
+        
+                 <li><input type="radio" name="profe">Student
+                 <input type="radio" name="profe">Teacher
+                 <input type="radio" name="profe">Developer</li>
+              </ul>
+                 <label for="choose_option">Choose the stage if you are(student)</label>
+             <select id="choose_option">
+                 <option value=""></option>
+                 <option value="First primary">First primary</option>
+                 <option value="secondary">secondary</option>
+                 <option value="Third" >Third</option>
+                 <option value="Fourth">Fourth</option>
+                 <option value="Fifth">Fifth</option>
+             </select>
+               <hr>
+        <div>
+             <ul>
+             <li><lable for="bdate">Enter your Birth date</label>
+                <input type="date" required></li>
+             </ul>
+             </div>
+                <hr>
+        <div>
+          <ul>
+                <li><textarea rows="1" cols="20" placeholder="Any notes"required></textarea ></li>
+
+                </ul>
+                <hr>
+        </div>
+       
+               <input type="submit" value="submit" class="btn">
+               <input type="Reset"value=" reset" class="btn">
+  
+  
+
+
+         </form>
+    </div>
+
+</body>
+</html>
